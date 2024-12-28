@@ -15,6 +15,7 @@ function App() {
       <h3>React Core Concepts 2</h3>
       <button onClick={handleClick}>Click Me!</button>
       <button onClick={handleClick2}>Click Me 2!</button>
+      <button onClick={() => {alert('Click me 3 is clicked')}}>Click Me 3!</button>
     </>
   )
 }
