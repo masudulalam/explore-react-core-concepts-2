@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './Counter';
+import Team from './Team';
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
 
   return (
     <>
+
+      <Team></Team>
 
       <Counter></Counter>
 
